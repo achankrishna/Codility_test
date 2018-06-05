@@ -9,5 +9,12 @@ public class Solutions {
 			bird.walk();
 			bird.fly();
 			bird.sing();
+			Duck d = new Duck();
+			d.setSound("Quack, quack");
+			d.sing();
+			d.swim();
+			Chicken chik = new Chicken();
+			chik.setSound("Cluck, Cluck");
+			chik.sing();
 		}
 }
