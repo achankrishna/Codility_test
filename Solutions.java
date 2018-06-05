@@ -5,6 +5,7 @@ import com.codility.Annimals.birds.Duck;
 import com.codility.Annimals.birds.Rooster;
 import com.codility.fish.ClownFish;
 import com.codility.fish.Shark;
+import com.codility.services.Animal;
 
 public class Solutions {
 		public static void main(String[] args) {
@@ -32,5 +33,11 @@ public class Solutions {
 			ClownFish cln = new ClownFish();
 			cln.setColor("orange");
 			cln.makeJokes();
+			
+			//Problem D
+			Bird btrfly = new Butterfly();
+			btrfly.fly();
+			Animal cater = new Catterpillar();
+			cater.walk();
 			}
 }
